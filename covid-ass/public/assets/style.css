@@ -1,0 +1,164 @@
+* {
+    scroll-behavior: smooth;
+}
+html,
+body {
+    font-family: "Poppins";
+    font-weight: 500;
+}
+.bgBanner
+{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    background-image: url('./images/i1.gif');
+    background-origin: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    font-family: 'Poppins' !important;
+    font-size: 48px;
+    font-weight: 700 !important;
+    line-height: 61px !important;
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    background-color: #d0a6ff7e;
+}
+.rcbtn01,.rcbtn01:hover,.rcbtn01:active,.rcbtn01:focus
+{
+    border: solid #380079 2px !important;
+    width: 150px !important;
+    height: 45px !important;
+    font-size: 21px !important;
+    background-color: #380079 !important;
+    border-radius: 0px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    color: #fff !important;
+    font-family: 'Poppins' !important;
+    text-align: center !important;
+    align-items: center !important;
+    line-height: 21px !important;
+    outline: none !important;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+    text-decoration: none !important;
+}
+.rcbtn02,.rcbtn02:hover,.rcbtn02:active,.rcbtn02:focus
+{
+    border: solid #380079 2px !important;
+    height: 45px !important;
+    font-size: 21px !important;
+    background-color: #380079 !important;
+    border-radius: 0px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    color: #fff !important;
+    font-family: 'Poppins' !important;
+    text-align: center !important;
+    align-items: center !important;
+    line-height: 21px !important;
+    outline: none !important;
+    margin-top: 5px !important;
+    margin-bottom: 0px !important;
+    text-decoration: none !important;
+}
+.heading h2{
+    text-align: center !important;
+    margin-top: 31px !important;
+    line-height: 51px !important;
+    text-decoration: underline;
+    font-weight: 600 !important;
+}
+form{
+   padding: 5px;
+   border-radius: 0px;
+   border: solid #d0a6ff7e 1px;
+   margin-top: 15px !important;
+   box-shadow:#d0a6ff7e 0px 0.7rem 0.8rem !important;
+}
+form p{
+    text-align: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 520;
+    line-height: 31px;
+    color: #00a8ce;
+}
+form .error{
+    color: #ff1100;
+}
+.form-group{
+    display: inline-flex;
+    align-items: center;
+}
+form label{
+    line-height: 36px;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Poppins';
+    padding: 5px;
+    margin-top: 2px;
+    width: 100px;
+    font-weight: 510;
+}
+form input,form input:focus,form input:active,form input:hover,.rsvinp01:hover,.rsvinp01,.rsvinp01:focus,.rsvinp01:active
+{
+    border: solid #d0a6ff7e 2px !important;
+    outline: none !important;
+    border-radius: 0px !important;
+    width: 100%;
+    height: 40px;
+    font-family: 'Poppins';
+    text-align: left;
+    font-size: 16px;
+    color: #000000;
+    box-shadow: none !important;
+    font-weight: 550;
+    padding: 10px !important;
+}
+.rsvinp04:hover,.rsvinp04,.rsvinp04:focus,.rsvinp04:active
+{
+    border: solid #d0a6ff7e 2px !important;
+    outline: none !important;
+    border-radius: 0px !important;
+    width: 100%;
+    height: 40px;
+    font-family: 'Poppins';
+    text-align: left;
+    font-size: 16px;
+    color: #000000;
+    box-shadow: none !important;
+    font-weight: 550;
+}
+.rsvinp02,.rsvinp02:hover,.rsvinp02:active,.rsvinp02:focus
+{
+    border: solid #380079 2px !important;
+    background-color: #380079;
+    outline: none !important;
+    box-shadow: none !important;
+    color: #fff;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 15px !important;
+    font-weight: 500 !important;
+    justify-content: center;
+}
+.rcbtn03,.rcbtn03:hover,.rcbtn02:active,.rcbtn02:focus{
+    border: solid #380079 2px !important;
+    background-color: #380079;
+    outline: none !important;
+    box-shadow: none !important;
+    color: #fff;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    margin-bottom: 15px !important;
+    width: 90% !important;
+    font-weight: 500 !important;
+    justify-content: center;
+}
