@@ -39,7 +39,7 @@ req.body.state = req.body.state.toLowerCase();
 //access    Public
 exports.updateData = asyncHandler(async (req, res, next) => {
 
-    let covid = await Covid.findOne({ state: req.body.state }).sort({ createdAt: -1 });
+    let covid = await Covid.findOne({ state: req.body.state.toLowerCase() }).sort({ createdAt: -1 });
 
     if (!covid) {
         return next(new ErrorResponse("Data not found for this state", 401));
@@ -60,6 +60,20 @@ exports.updateData = asyncHandler(async (req, res, next) => {
         data: covid
     })
 });
+
+// @desc    Get Covid Data by state
+// @route   POST/api/v1/covid/get/data/state
+//access    Public
+exports.getList = asyncHandler(async (req, res, next) => {
+
+    let covid = await Covid.find({ });
+
+    res.status(200).json({
+        success: true,
+        data: covid
+    })
+});
+
 
 // @desc    Get Covid Data by state
 // @route   POST/api/v1/covid/get/data/state
